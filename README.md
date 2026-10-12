@@ -1,42 +1,54 @@
-# AI-Powered Engineering Document Quality Assurance Agent
+# AI-Powered Engineering Document Quality Assurance
 
 ## Project Overview
-This project demonstrates a human-supervised AI agent workflow for reviewing engineering maintenance documentation. A fictional centrifugal pump maintenance procedure was assessed in two iterations to identify documentation gaps, improve traceability, and evaluate the quality of the agent's findings.
 
-## Project Objectives
+This beginner portfolio project demonstrates a ChatGPT-assisted workflow for reviewing engineering maintenance documentation. A fictional six-step centrifugal pump maintenance procedure was reviewed through two iterations to identify documentation gaps, ambiguous instructions, missing acceptance criteria, and verification needs.
+
+## Objectives
+
 - Identify missing information and ambiguous maintenance instructions.
-- Record evidence-based findings and preliminary severity ratings.
+- Document findings with supporting evidence from the supplied procedure.
 - Recommend corrective actions and verification sources.
-- Compare the baseline output (Run 1) with the improved review (Run 2).
-- Apply a structured feedback loop to improve agent performance.
+- Compare two review iterations and identify remaining limitations.
 
 ## Methodology
-1. Provide a fictional pump maintenance procedure and review criteria.
-2. Run the AI agent to establish a baseline report.
-3. Review the output and identify gaps.
-4. Refine the review approach and perform a second run.
-5. Compare the findings, evidence, recommendations, and limitations.
+
+1. Reviewed a fictional centrifugal pump maintenance procedure against a document-quality checklist.
+2. Prepared an initial review report with five preliminary findings.
+3. Refined the review structure and instructions with ChatGPT assistance.
+4. Prepared a second review report with seven preliminary findings.
+5. Compared the reports to evaluate evidence traceability, corrective actions, verification planning, and documentation of uncertainties.
+
+**Project method:** The two reports were prepared manually with ChatGPT assistance. This repository does not demonstrate an independently deployed or autonomously executed AI agent.
 
 ## Key Results
-- Run 1 identified five preliminary findings.
-- Run 2 expanded the review to seven findings.
-- The second report improved the structure of findings, verification planning, and documentation of unresolved questions.
-- Both runs highlighted the need to verify equipment-specific requirements against approved technical sources.
+
+- Run 1 identified five preliminary documentation findings.
+- Run 2 identified seven preliminary documentation findings.
+- The comparison highlighted improvements in finding structure, verification planning, and documentation of unresolved questions.
+- Equipment-specific requirements remained unverified because approved technical source documents were unavailable.
 
 ## Repository Contents
-- `Run_1_Engineering_Document_QA_Report.pdf` — Baseline review.
-- `Run_2_Engineering_Maintenance_Procedure_Quality_Review.pdf` — Second review.
-- `Run_1_vs_Run_2_Comparison_and_Final_Capstone_Report.pdf` — Comparative analysis and final summary.
+
+- `Run_1_Engineering_Document_QA_Report.pdf` — Initial review report.
+- `Run_2_Engineering_Maintenance_Procedure_Quality_Review.pdf` — Second review report.
+- `Run_1_vs_Run_2_Comparison_and_Final_Capstone_Report.pdf` — Comparison and final summary.
+
+## Tools and Skills
+
+- ChatGPT-assisted analysis and prompt refinement
+- Mechanical engineering document review
+- Technical writing and quality assurance
+- Evidence-based findings and traceability
+- Critical evaluation of AI-generated content
+- Human-supervised review
 
 ## Limitations and Safety
-This is a fictional training project, not an approved maintenance procedure. No actual OEM manual, site-approved isolation procedure, or formal site risk assessment was verified. Findings and severity ratings are preliminary and require qualified human review.
 
-## Skills Demonstrated
-- AI agent direction and evaluation
-- Engineering document quality assurance
-- Evidence-based technical review
-- Root-cause diagnosis and iterative improvement
-- Technical reporting and traceability
+This is a fictional training example, not an approved maintenance procedure. The reports were not independently validated against OEM manuals, site-approved procedures, equipment-specific requirements, or a formal risk assessment. Severity ratings are preliminary.
 
-## Author
-Sayooj K P.
+The reports do not establish that an actual pump is unsafe or that a specific technical requirement has been violated. This project must not be used as an operational maintenance instruction.
+
+## Conclusion
+
+This project demonstrates a ChatGPT-assisted approach to iterative engineering document review, with emphasis on traceability, verification planning, and transparent communication of limitations.
